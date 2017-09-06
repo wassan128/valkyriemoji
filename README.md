@@ -11,4 +11,4 @@ custom emoji moving(copy) between slacks.
 1. npm install -g emojipack
 2. git clone THIS_REPOSITORY
 3. set token
-4. valkyrie.bat
+4. valkyrie.bat [target slack subdomain] [target slack emailaddress]
