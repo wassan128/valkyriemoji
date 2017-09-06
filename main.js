@@ -3,12 +3,10 @@ const request = require('request');
 const fs = require('fs');
 
 const API_TOKEN = '';
-
-const slack = new Slack(API_TOKEN);
-
 const EXPORT_FILE = 'exported.yaml'
 const yaml_header = 'title: valkyriemoji\nemojis:\n'
 
+const slack = new Slack(API_TOKEN);
 if (slack.token == '') {
 	console.log("error: first, you need to get API TOKEN from emoji source slack.");
 	process.exit();
